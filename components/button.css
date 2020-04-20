@@ -1,0 +1,8 @@
+/* TODO: write your button styles here */
+.button{
+	background-color: #f1e4d9;
+	box-shadow: 2px 2px 2px #AFB3B4;
+	border-radius: 4px;
+	padding:24px 32px;
+}
+	

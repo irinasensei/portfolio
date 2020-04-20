@@ -1,0 +1,79 @@
+
+/* Import your components here */
+@import "components/button.css";
+@import "components/fonts.css";
+
+body {
+	margin: 10px;
+	font-family: 'quicksand', sans-serif; 
+	background: #FFFAFA; 
+}
+
+a{
+	text-decoration: none;
+	color: #1b41a0;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #FFFAFA;
+}
+
+.container {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width:64vw;
+	background-color:#f1e4d9;
+	padding-top:32px;
+	padding-right: 64px;
+	padding-left: 64px;
+	padding-bottom: 32px;
+	border-radius: 8px;
+	box-shadow: 8px 8px 8px #AFB3B4;
+}
+
+.avatar{
+	width: 240px;
+}
+
+
+.alignment{
+	justify-content: space-around;
+	flex-wrap: wrap;
+	display: flex;
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
+}
+
+.small{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:32px;
+	padding-bottom: 40px;
+}
+
+.cards{
+    width: 272px;
+    height:272px;
+    box-shadow: #AFB3B4 2px 2px 8px;
+    background: #FFFAFA;
+	border-radius: 8px;
+	padding-top: 8px;
+	padding-bottom: 16px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+
+.image {
+	max-width: 256px;
+    max-height: 148px;
+    align-items: center;
+}
+
